@@ -1,0 +1,41 @@
+/*
+  Мои стили. Раздражают ядовитые
+  цвета. Делаю свои...
+ */
+.error, .success {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.error {
+    text-align: left;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+    background-color: #f2dede;
+}
+
+.error ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.success {
+    text-align: center;
+    border: 1px solid green;
+    background-color: #d1f9da;
+    color: green;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {text-decoration: none;}
+.tac {text-align: center}
+.div-scroll {max-height: 650px; overflow-y: auto }
+div.box-footer a#create-content-cancel-btn {
+    margin-left: 10px;
+}
